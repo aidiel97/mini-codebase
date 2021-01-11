@@ -1,0 +1,24 @@
+{
+  "name": "mini-codebase",
+  "version": "1.0.0",
+  "description": "mini codebase with restify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aidiel97/mini-codebase.git"
+  },
+  "keywords": [
+    "codebase",
+    "nodejs",
+    "restify"
+  ],
+  "author": "aidiel m rachman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aidiel97/mini-codebase/issues"
+  },
+  "homepage": "https://github.com/aidiel97/mini-codebase#readme"
+}
