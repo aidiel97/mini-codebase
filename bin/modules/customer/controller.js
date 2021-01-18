@@ -2,9 +2,9 @@ const Models = require('./model');
 const wrapper = require('../../helpers/utils/wrapper');
 
 const getCustomer = async (req, res) => {
-  const customerNameParams = req.params.customerName;
+  const customerId = req.params.customerId;
 
-  const result = await Models.find({ customerName: customerNameParams });
+  const result = await Models.find({ customerId });
 
   return wrapper.success(res, result, "hooray, this is the product that you\'re asking for");
 }
