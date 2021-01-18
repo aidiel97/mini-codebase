@@ -13,7 +13,11 @@ const productSchema = mongoose.Schema({
   price: {
     type: Number,
     required: [true, 'price required']
-  }
+  },
+  category: {
+    type: String,
+    required: [true, 'harus ada category']
+  },
 });
 
 module.exports = mongoose.model('products', productSchema);
